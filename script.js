@@ -57,3 +57,16 @@ const containerCard = document.querySelector(".container");
 for (let i = 0; i < teamMembers.length; i++) {
   containerCard.append(generateCard(teamMembers[i]));
 }
+
+
+
+const formNewMember = document.getElementById("add-member");
+const nameMember = document.getElementById("name-member");
+const roleMember = document.getElementById("role-member");
+const emailMember = document.getElementById("email-member");
+const imgMember = document.getElementById("img-member");
+
+formNewMember.addEventListener("submit", (e)=>{
+  e.preventDefault();
+  
+})
