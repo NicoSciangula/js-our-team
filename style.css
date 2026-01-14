@@ -20,27 +20,34 @@ header p {
   text-align: center;
   padding: 2rem;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .card {
   display: flex;
   justify-content: center;
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 1.5rem 1rem 1.5rem 1rem;
 }
 img {
   width: 125px;
 }
 .card-description {
-  padding: 0 3rem 0 1.5rem;
+  padding: 0 0 0 1.5rem;
   background-color: black;
   color: white;
+  width: 290px;
 }
 
-.card-description h2{
-    padding: 1rem 0 .5rem 0;
+.card-description h2 {
+  padding: 1rem 0 0.5rem 0;
 }
-.card-description h3{
-    padding-bottom: .7rem;
+.card-description h3 {
+  padding-bottom: 0.7rem;
 }
-.card-description p{
-    color: #64b8d7;
-    font-size: 1.2rem;
+.card-description p {
+  color: #64b8d7;
+  font-size: 1.2rem;
 }
