@@ -40,14 +40,15 @@ const teamMembers = [
 function generateCard(member) {
   const { name, role, email, img } = member;
   const newDiv = document.createElement("div");
-  newDiv.innerHTML = `<div class="card">
+  newDiv.classList.add("card");
+  newDiv.innerHTML = `
                 <img src="./${img}" alt="picture of the team-member">
                 <div class="card-description">
                     <h2>${name}</h2>
                     <h3>${role}</h3>
                     <p>${email}</p>
                 </div>
-            </div>`;
+            `;
   return newDiv;
 }
 
